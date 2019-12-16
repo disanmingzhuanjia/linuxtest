@@ -16,7 +16,6 @@ int main(){
     uread("random.dat",b,100);
     t1=working_time();
     syssort(b,100);//系统内置排序
-    show(b,100);
     t1=working_time()-t1;
     printf("系统排序用时:%f s\n",t1);
     uwrite("syssort.dat",b,100);
